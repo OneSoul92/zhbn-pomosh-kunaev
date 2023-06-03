@@ -1,0 +1,515 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+ .welcome_text {
+    text-align: center;
+
+ }
+
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Стили для заголовка и навигации */
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    height: 100%;
+  }
+  
+
+  .language-selector {
+    display: flex;
+  }
+  
+  .language-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+
+  nav ul {
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Стили для основных секций */
+  
+  section {
+    padding: 40px;
+  }
+  
+  #home {
+    background-color: #f9f9f9;
+  }
+  
+  #services {
+    background-color: #eef5fb;
+  }
+  
+  #resources {
+    background-color: #f2f2f2;
+  }
+  
+  #contact {
+    background-color: #f1f9f3;
+  }
+  
+  /* Стили для контактных данных */
+  
+  #contact ul {
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  footer p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #888;
+  }
+
+/* Стили для раздела "Услуги" с использованием грида */
+
+.services {
+  padding: 20px;
+}
+
+.services h2 {
+  text-align: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.service {
+  text-align: center;
+}
+
+.service img {
+  width: 80px;
+  height: auto;
+}
+
+  
+#statistics {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .statistics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .statistic {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .statistic h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .statistic p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .social-icon:hover {
+    color: #888;
+  }
+
+  #news {
+    padding: 40px;
+    
+  }
+  
+  #news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .news-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .news-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .news-item p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+
+/* Стили для раздела "О центре" */
+
+#about {
+    padding: 40px;
+   
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  #about p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #F5F5F5;
+  }
+  
+  h1, h2 {
+    color: #78C2AD;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #F5F5F5;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  #home {
+    background-color: #F9F9F9;
+  }
+  
+footer {
+    background-color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #888;
+  }
+
+
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .language-selector {
+    display: flex;
+  }
+  
+  .language-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 40%;
+    /* width: 500px; */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .phone-number {
+    font-weight: bold;
+  }
+  
+  .address {
+    font-style: italic;
+  }
+
+.langauge-image {
+    width: 20px;
+    height: 15px;
+}
+
+  .services_title {
+    font-size: 25px;
+  }
+
+  .read-more-button {
+    font-size: 14px;
+  }
+
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .submenu li {
+    margin-bottom: 5px;
+  }
+  
+  .submenu a {
+    color: #333;
+    text-decoration: none;
+  }
+
+.domestic_violance_title {
+  text-align: left;
+}
+
+.call_center_text {
+  color: #78C2AD;
+  font-weight: 700;
+ 
+}
+
+.footer_text {
+  padding-bottom: 10px;
+}
+
+#news a {
+  text-decoration: none;
+}
+
+#news a:visited {
+  color: #0757e0;
+}
+
+#resources a {
+  text-decoration: none;
+}
+
+#resources a:visited {
+  color: #0757e0;
+}
+
+.date {
+  color: gray;
+}
+
+.services_title {
+  margin: 0;
+  padding-bottom: 30px;
+}
+

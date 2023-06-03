@@ -1,0 +1,22 @@
+.dropdown:hover .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .submenu li {
+    margin-bottom: 5px;
+  }
+  
+  .submenu a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* ... */
